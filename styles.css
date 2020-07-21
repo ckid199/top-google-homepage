@@ -1,0 +1,71 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    padding: 10% 0 2%;
+    margin: 0 auto;
+}
+
+.search-bar {
+    padding: 0;
+    margin: 0 33vw 10px;
+}
+
+input {
+    border-radius: 20px;
+    border-color: lightgray;
+    border-width: thin;
+    width: 33vw;
+    height: 2vw;
+    color: lightgrey;
+}
+
+.search-buttons {
+    margin-left: 42%;
+    padding: 2px 0 0 10px;
+}
+
+button {
+    -webkit-appearance: none;
+    font-family: 'Roboto';
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 0;
+    padding: 13px 10px;
+    margin: 1px;
+}
+
+.top-left {
+    margin-left: 0.5%;
+}
+
+.top-right {
+    margin-left: 77%;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 5px;
+    margin-left: 0.5%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 5px;
+    margin-left: 87%;
+}

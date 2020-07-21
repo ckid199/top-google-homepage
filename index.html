@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Homepage TOP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <ul>
+    <div id="header">
+        <ul class="top-left">
             <li>
                 About
             </li>
             <li>
                 Store
             </li>
+        </ul>
+
+        <ul class="top-right">
             <li>
                 Gmail
             </li>
@@ -27,26 +33,32 @@
                 Sign in
             </li>
         </ul>
-    </header>
-
-    <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
 
-    <div class="search-bar">
-        <form>
-            
-        </form>
-        <div>
-            Google Search
+    <div id="middle">
+        <div class="middle-img">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
+    
         <div>
-            I'm feeling lucky
+            <form class="search-bar"> 
+                <input type="text">    
+            </form>
+
+            <ul class="search-buttons">
+                <li>
+                    <button>Google Search</button>
+                </li>
+                <li>
+                    <button>I'm feeling lucky</button>
+                </li>
+            </ul>
+
         </div>
     </div>
-
-    <footer>
-        <ul>
+   
+    <div id="footer" class="bottom">
+        <ul class="bottom-left">
             <li>
                 Advertising
             </li>
@@ -56,6 +68,8 @@
             <li>
                 How Search works
             </li>
+        </ul>
+        <ul class="bottom-right">
             <li>
                 Privacy
             </li>
@@ -66,6 +80,7 @@
                 Settings
             </li>
         </ul>
-    </footer>
+    </div>
+
 </body>
 </html>
